@@ -106,7 +106,6 @@ def delete_post(post_id):
 
     return redirect(url_for("get_all_posts"))
 
-# Below is the code from previous lessons. No changes needed.
 @app.route("/about")
 def about():
     return render_template("about.html")
